@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register form</title>
+  </head>
+  <body>
+    <h3>Register</h3>
+    <form >
+      <label for="Firstname">Firstname:</label>
+      <input type="text" name="Firstname" id="Firstname" placeholder="Firstname" required>
+      <label for="lastname">Lastname:</label>
+      <input type="text" name="lastname"  placeholder="Lastname" required>
+    <div>
+
+      <label for="male">Male</label>
+      <input  type="radio" name="gender" value="male">
+      <label for="female">Female</label>
+      <input type="radio" name ="gender" value="female">
+      <label for="other">Other</label>
+      <input type="radio" name="gender" value="other">
+    </div>
+
+    <div>
+      <label for="email">Email:</label>
+      <input id="email"type="email"  name="email" placeholder="Email@email.com" required>
+      <label for="password">Password:</label>
+      <input id="password"type="password" name="password"  minlength="8" required 5 to 10 character>
+    </div>
+    <div>
+          <label >
+              Birthday:
+              <select name="month">
+                <option >Month</option>
+                <<option>Feb</option>
+
+              </select>
+              <select name="day">
+                <option>Day</option>
+                <option>1</option>
+              </select>
+              <select name="year">
+                <option>Year</option>
+                <option>1996</option>
+                </select>
+          </label>
+    </div>
+    <div>
+      <label for="checkbox">I agree</label>
+      <input id=""checkbox" type="checkbox" name="checkbox" value="checkbox-agree" required>
+      </div>
+      <div>
+      <input type="submit" name="submit" value="Submit" >
+      </div>
+      </form>
+  </body>
+</html>
