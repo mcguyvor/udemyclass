@@ -1,11 +1,35 @@
-h1,h2,h3,h4,h5,h6{
+h1,h2{
   color:white;
   font-family: 'Nunito', sans-serif;
+  font-size: 4rem;
+  font-weight: 100;
 
 }
 body{
-  background-color: pink;
+  background-color: #E7AFC8;
 }
-.nav-let{
-  color:white;
+#mainNav{
+  font-size: 1.5rem;
+  font:100;
+}
+#mainNav .navbar-brand{
+  color:#FF3390;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1em;
+}
+#mainNav .nav-link:hover{
+  color:#FF3390;
+}
+@media (max-width: 1200px){
+  h2{
+    font-weight:100;
+    font-size: 3rem;
+
+  }
+}
+.lead{
+  color:#E37EAB;
+}
+.navbar .scrolled{
+  background-color: pink;
 }
